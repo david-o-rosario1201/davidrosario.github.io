@@ -1,0 +1,47 @@
+html{
+    background-color: #00539f;/*fondo*/
+    font-size: 10px;/*tamaño de letra*/
+    font-family: "Open Sans",sans-serif;/*tipo de letra*/
+}
+
+h1{
+    margin: 0;/*Para deshacerse del espacio de estilo por defecto*/
+    padding: 20px 0; /*espacio alrededor*/
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;/*sombra*/
+    font-size: 50px;
+    text-align: center;/*alineacion del texto*/
+}
+
+body{
+    width: 600px;/*Espacio de trabajo*/
+    margin: 0 auto; /*poner todo en el centro*/
+    /*auto es un valor especial que divide el espacio disponible entre derecha e izquierda*/
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    /*tienes 4 valores puestos en el relleno, para dar un poco de espacio alrededor del contenido.*/
+    /*Los valores se ponen: arriba, derecha, abajo e izquierda, en ese orden.*/
+    border: 5px solid black;/*borde*/
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+}
+
+p,
+li,
+a,
+ul,
+ol,
+h4{
+    font-size: 16px;
+    line-height: 1;/*espacio entre parrafo o encabezado*/
+    letter-spacing: 1px; /*espacio entre letra*/
+}
